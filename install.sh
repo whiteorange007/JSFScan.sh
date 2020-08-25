@@ -8,7 +8,7 @@ echo -e "\n-----------------------INSTALLING INTERLACE------------------------"
 cd ./tools
 git clone https://github.com/codingo/Interlace.git
 cd -
-sudo pip3 install -r ./tools/Interlace/requirements.txt
+python3 -m pip install -r ./tools/Interlace/requirements.txt
 cd ./tools/Interlace/
 sudo python3 setup.py install
 cd -
